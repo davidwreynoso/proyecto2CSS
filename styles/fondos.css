@@ -1,0 +1,28 @@
+.plano {
+    background: rgb(38, 212, 32);
+}
+.gradiente {
+    background: linear-gradient(to right, red, blue);
+}
+.conImagen {
+    background-image: url("/Assets/img/julian1.png");
+    background-size:contain;
+}
+.bodyDiv3grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.bodyDiv3grid > div{
+    width: 25vw;
+    height: 50vh;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    font-size: 23px;
+}

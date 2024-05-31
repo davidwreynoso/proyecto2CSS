@@ -1,0 +1,42 @@
+.bodyDiv3grid {
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    gap: 50px;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.bodyDiv3grid > div{
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    align-content: center;
+}
+
+.cajita {
+    width: 80px;
+    height: 80px;
+}
+.solido {
+    border: 5px solid black;
+}
+.punteado {
+    border: 5px dotted black;
+}
+.tachado {
+    border: 5px dashed black;
+}
+.doble {
+    border: 5px double black;
+}
+.groove {
+    border: 5px groove black;
+}
+.ridge {
+    border: 5px ridge black;
+}
+.inset {
+    border: 5px inset black;
+}
+.outset {
+    border: 5px outset black;
+    }

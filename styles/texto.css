@@ -1,0 +1,106 @@
+.bodyDiv3grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.bodyDiv3grid > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.left {
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+h4{
+    margin: 20px 0 10px 0;
+    font-size: 22px;
+}
+h5 {
+    text-align: center;
+}
+
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}
+
+.bodyDiv4grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.bodyDiv4grid > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(192, 153, 153);
+    text-align: center;
+    align-content: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.bodyDiv5grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 50px;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.bodyDiv5grid > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(192, 153, 153);
+    text-align: center;
+    align-content: center;
+}
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
